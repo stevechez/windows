@@ -1,4 +1,4 @@
-const Faq = () => {
+const ServicesFaq = () => {
   return (
     <div className="my-20">
       <h1 className="text-3xl font-bold text-blue-950 text-center mb-10">
@@ -213,4 +213,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default ServicesFaq;
