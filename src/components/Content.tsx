@@ -7,17 +7,17 @@ const Content: NextPage = () => {
     <>
       <section className="w-full py-4 bg-gray-50">
         <div className="px-10 mx-auto max-w-7xl">
-          <div className="px-10 mb-8 mt-8 space-y-5 lg:px-0 lg:text-center lg:mb-10">
-            <h2 className="text-3xl font-black sm:text-5xl">Our Process</h2>
+          <div className="px-10 my-8 text-center">
+            <h2 className="font-black text-3xl">Our Process</h2>
           </div>
           <div className="grid overflow-hidden lg:rounded-xl">
             <div className="grid items-center lg:grid-cols-2">
-              <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
-                <h3 className="text-xl font-semibold sm:text-2xl">
+              <div className="flex flex-col justify-center ">
+                <h3 className="text-xl font-semibold mb-4 md:text-2xl">
                   Spectacular Windows
                 </h3>
 
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-600 mb-8 md:pr-12">
                   Window cleaning is a detailed process that requires a
                   systematic approach to ensure that each window is cleaned to a
                   high standard. The process usually starts with an assessment
@@ -44,11 +44,11 @@ const Content: NextPage = () => {
                   alt=""
                 />
               </div>
-              <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
-                <h3 className="text-xl font-semibold sm:text-2xl">
+              <div className="flex flex-col justify-center md:pl-12">
+                <h3 className="mt-8 text-xl font-semibold mb-4 md:text-2xl">
                   Peace Of Mind
                 </h3>
-                <p className="text-lg text-left text-gray-600">
+                <p className="text-lg text-gray-600 mb-8 md:pr-12">
                   Once the assessment is complete, the cleaning process begins.
                   Typically, the first step involves removing any debris or
                   loose dirt from the window using a soft-bristled brush or a
@@ -62,11 +62,11 @@ const Content: NextPage = () => {
             </div>
 
             <div className="grid items-center lg:grid-cols-2">
-              <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
-                <h3 className="text-xl font-semibold sm:text-2xl mt-6">
+              <div className="flex flex-col justify-center">
+                <h3 className="mt-8 text-xl font-semibold mb-4 md:text-2xl">
                   The Difference Is Clear
                 </h3>
-                <p className="text-xl text-gray-600">
+                <p className="text-lg text-gray-600 mb-8 md:pr-12">
                   Finally, the windows are dried using a lint-free cloth or
                   chamois to remove any remaining moisture and to leave the
                   windows looking shiny and clean. For particularly difficult

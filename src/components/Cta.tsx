@@ -6,7 +6,7 @@ const Cta: NextPage = () => {
   return (
     <>
       <section className="flex flex-col w-full overflow-hidden bg-white lg:flex-row sm:mx-auto border border-gray-40">
-        <div className="flex justify-end p-8 lg:py-32 lg:px-16 lg:pl-10 lg:w-1/2 0 ml-48 bg-blue-50">
+        <div className="flex justify-end p-8 md:ml-48 bg-blue-50">
           <div className="flex flex-col items-start justify-center w-full lg:max-w-lg">
             <h2 className="text-xl font-bold text-blue-900">
               CALL NOW: 650-793-8244

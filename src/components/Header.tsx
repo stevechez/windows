@@ -2,21 +2,22 @@ import React from "react";
 import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import NavBar from "./NavbarResp";
 
 const Header3: NextPage = () => {
   return (
     <>
       <header className="bg-gray-200 w-screen">
-        <div className="flex flex-col flex-wrap items-end w-screen px-20 py-2 mx-auto md:flex-row">
-          <Link href="/" className="">
-            <img
-              src="/images/logo.png"
-              width={200}
-              height={82}
-              alt="A Shine On Windows"
-            />
-          </Link>
-          <nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
+        <NavBar />
+      </header>
+    </>
+  );
+};
+
+export default Header3;
+
+{
+  /* <nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
             <div className="absolute -right-20 -top-20 flex bg-gradient-to-r from-gray-200 to-blue-300 p-4 w-[500px]">
               <div className="flex-1">
                 <svg
@@ -88,12 +89,5 @@ const Header3: NextPage = () => {
                 Request Quote
               </Link>
             </div>
-          </nav>
-          <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-900 to-transparent opacity-0 dark:opacity-100" />
-        </div>
-      </header>
-    </>
-  );
-};
-
-export default Header3;
+          </nav> */
+}

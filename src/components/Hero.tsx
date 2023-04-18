@@ -17,7 +17,7 @@ const Hero: NextPage = () => {
             <path d="M50 0H80L50 120H0L50 0Z"></path>
           </svg>
           <Image
-            className="w-full h-48 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-48 lg:h-full"
+            className="w-full h-48 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-48 lg:h-full "
             src="/images/hero.jpg"
             width={600}
             height={419}
@@ -33,14 +33,13 @@ const Hero: NextPage = () => {
                 (650) 793-8244
               </span>
             </h1>
-            <p className="mb-5 text-xl text-gray-300 sm:pr-10 md:text-xl">
+            <p className="mb-5 text-xl text-gray-300 pr-4 md:text-xl">
               Spectacular windows, professional service and peace of mind. Every
               single time. The difference is clear!
             </p>
-
-            {/* CALL US TODAY!
-(720) 442-3260
-Spectacular windows, professional service and peace of mind. Every single time. The difference is clear! */}
+            <p className="mb-5 text-xl text-gray-300 sm:pr-10 md:text-xl">
+              Serving Santa Cruz to Aptos.
+            </p>
             <div className="flex flex-col items-center pt-2 sm:flex-row sm:pt-4">
               <Link
                 href="/request-quote"

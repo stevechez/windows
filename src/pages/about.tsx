@@ -2,12 +2,12 @@ import type { NextPage } from "next";
 import Image from "next/image";
 const about: NextPage = () => {
   return (
-    <div className="container w-4/5 mx-auto py-10">
+    <div className="container py-10">
       <h1 className="text-4xl font-black text-blue-950 text-center mb-8">
         About Us
       </h1>
-      <div className="w-3/4 mx-auto">
-        <div className="float-right m-4">
+      <div className="w-10/12 mx-auto">
+        <div className="mb-8 md:float-right md:m-4">
           <Image
             src="/images/windowcleaner2.webp"
             alt="About Us Image"
@@ -17,7 +17,7 @@ const about: NextPage = () => {
           />
         </div>
 
-        <p className="text-lg mb-4">
+        <p className="text-lg mb-4 w-full">
           Welcome to A Shine On Windows, the premier window washing company
           serving the Santa Cruz/Capitola/Aptos area. Our team of experienced
           professionals is committed to providing our customers with top-quality
