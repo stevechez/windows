@@ -23,11 +23,11 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  I recently had my windows cleaned by [Business Name], and I
+                  I recently had my windows cleaned by A Shine On Windows, and I
                   was blown away by the results! My windows have never looked so
                   clean and clear. The team was professional, friendly, and
-                  efficient. I highly recommend [Business Name] for all of your
-                  window washing needs!
+                  efficient. I highly recommend A Shine On Windows for all of
+                  your window washing needs!
                 </p>
               </div>
 
@@ -121,9 +121,9 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  I&apos;m so glad I found [Business Name] for my window washing
-                  needs. The team was professional, efficient, and left my
-                  windows looking amazing. I will definitely be recommending
+                  I&apos;m so glad I found A Shine On Windows for my window
+                  washing needs. The team was professional, efficient, and left
+                  my windows looking amazing. I will definitely be recommending
                   them to all my friends and family!
                 </p>
               </div>

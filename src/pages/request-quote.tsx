@@ -16,7 +16,7 @@ const Contact: NextPage = () => {
             <div>
               <label
                 htmlFor="first-name"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 First name
               </label>
@@ -27,20 +27,9 @@ const Contact: NextPage = () => {
             </div>
 
             <div>
-              <label className="label">
-                <span className="text-base label-text">teesete</span>
-              </label>
-              <input
-                type="text"
-                placeholder="Name"
-                className="w-full input input-bordered input-primary"
-              />
-            </div>
-
-            <div>
               <label
                 htmlFor="last-name"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 Last name
               </label>
@@ -53,7 +42,7 @@ const Contact: NextPage = () => {
             <div>
               <label
                 htmlFor="address"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 Address
               </label>
@@ -66,7 +55,7 @@ const Contact: NextPage = () => {
             <div>
               <label
                 htmlFor="city"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 City
               </label>
@@ -79,7 +68,7 @@ const Contact: NextPage = () => {
             <div>
               <label
                 htmlFor="email"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 Email
               </label>
@@ -92,7 +81,7 @@ const Contact: NextPage = () => {
             <div>
               <label
                 htmlFor="phone"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 Phone
               </label>
@@ -102,26 +91,46 @@ const Contact: NextPage = () => {
               />
             </div>
 
-            <div className="sm:col-span-2">
-              <h2>Services desired:</h2>
+            <div className="sm:col-span-2 text-lg">
+              <h2 className="font-semibold text-gray-700 my-2">
+                Services desired:
+              </h2>
               <p>
                 <input type="checkbox" value="Window Washing" />
+                <span className="ml-2 font-medium text-gray-500">
+                  Window Washing
+                </span>
               </p>
               <p>
-                <input type="checkbox" value="Power Washing" />
+                <input
+                  type="checkbox"
+                  value="Power Washing"
+                  name="Power Washing"
+                />
+                <span className="ml-2 font-medium text-gray-500">
+                  Power Washing
+                </span>
               </p>
               <p>
-                <input type="checkbox" value="Screen Washing" />
+                <input
+                  type="checkbox"
+                  value="Screen Washing"
+                  name="Screen Washing"
+                />
+                <span className="ml-2 font-medium text-gray-500">
+                  Screen Washing
+                </span>
               </p>
               <p>
-                <input type="checkbox" value="Gutters" />
+                <input type="checkbox" value="Gutters" name="gutters" />
+                <span className="ml-2 font-medium text-gray-500">Gutters</span>
               </p>
             </div>
 
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base"
+                className="inline-block mb-2 text-lg font-medium text-gray-500 sm:text-lg"
               >
                 Message
               </label>
@@ -132,7 +141,7 @@ const Contact: NextPage = () => {
             </div>
 
             <div className="flex items-center justify-between sm:col-span-2">
-              <button className="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 bg-blue-600 rounded-md outline-none hover:bg-blue-500 active:bg-blue-700 ring-blue-300 md:text-base w-full mx-auto">
+              <button className="inline-block px-8 py-3 text-lg font-semibold text-center text-white transition duration-100 bg-blue-600 rounded-md outline-none hover:bg-blue-500 active:bg-blue-700 ring-blue-300 md:text-lg  w-full mx-auto">
                 Send Now
               </button>
             </div>

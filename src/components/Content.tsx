@@ -8,16 +8,16 @@ const Content: NextPage = () => {
       <section className="w-full py-4 bg-gray-50">
         <div className="px-10 mx-auto max-w-7xl">
           <div className="px-10 mb-8 mt-8 space-y-5 lg:px-0 lg:text-center lg:mb-10">
-            <h2 className="text-4xl font-bold sm:text-5xl">Our Process</h2>
+            <h2 className="text-3xl font-black sm:text-5xl">Our Process</h2>
           </div>
           <div className="grid overflow-hidden lg:rounded-xl">
             <div className="grid items-center lg:grid-cols-2">
               <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
-                <h3 className="text-xl font-semibold sm:text-4xl">
+                <h3 className="text-xl font-semibold sm:text-2xl">
                   Spectacular Windows
                 </h3>
 
-                <p className="text-xl text-gray-600">
+                <p className="text-lg text-gray-600">
                   Window cleaning is a detailed process that requires a
                   systematic approach to ensure that each window is cleaned to a
                   high standard. The process usually starts with an assessment
@@ -45,10 +45,10 @@ const Content: NextPage = () => {
                 />
               </div>
               <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
-                <h3 className="text-xl font-semibold sm:text-4xl">
+                <h3 className="text-xl font-semibold sm:text-2xl">
                   Peace Of Mind
                 </h3>
-                <p className="text-xl text-left text-gray-600">
+                <p className="text-lg text-left text-gray-600">
                   Once the assessment is complete, the cleaning process begins.
                   Typically, the first step involves removing any debris or
                   loose dirt from the window using a soft-bristled brush or a
@@ -63,7 +63,7 @@ const Content: NextPage = () => {
 
             <div className="grid items-center lg:grid-cols-2">
               <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
-                <h3 className="text-xl font-semibold sm:text-4xl mt-6">
+                <h3 className="text-xl font-semibold sm:text-2xl mt-6">
                   The Difference Is Clear
                 </h3>
                 <p className="text-xl text-gray-600">
@@ -74,9 +74,6 @@ const Content: NextPage = () => {
                   equipment such as ladders, scaffolding, or water-fed poles may
                   be required to ensure the safety of the window cleaning
                   professionals and to achieve the desired level of cleanliness.
-                  Overall, the window cleaning process is a detailed and
-                  thorough process that requires skill, experience, and
-                  attention to detail to achieve the best results.
                 </p>
               </div>
               <div className="bg-gray-100 h-96">

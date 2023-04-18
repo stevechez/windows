@@ -6,7 +6,7 @@ const ServicesFaq = () => {
       </h1>
       <div className="accordion flex flex-col items-center justify-center mb-6">
         {/* <!--  Panel 1  --> */}
-        <div className="w-1/2">
+        <div className="w-3/4 ">
           <input type="checkbox" name="panel" id="panel-1" className="hidden" />
           <label
             htmlFor="panel-1"
@@ -63,7 +63,7 @@ const ServicesFaq = () => {
           </div>
         </div>
         {/* <!--  Panel 2  --> */}
-        <div className="w-1/2">
+        <div className="w-3/4 ">
           <input type="checkbox" name="panel" id="panel-2" className="hidden" />
           <label
             htmlFor="panel-2"
@@ -103,7 +103,7 @@ const ServicesFaq = () => {
           </div>
         </div>
         {/* <!--  Panel 3  --> */}
-        <div className="w-1/2">
+        <div className="w-3/4 ">
           <input type="checkbox" name="panel" id="panel-3" className="hidden" />
           <label
             htmlFor="panel-3"
@@ -157,7 +157,7 @@ const ServicesFaq = () => {
           </div>
         </div>
         {/* <!--  Panel 4  --> */}
-        <div className="w-1/2">
+        <div className="w-3/4 ">
           <input type="checkbox" name="panel" id="panel-4" className="hidden" />
           <label
             htmlFor="panel-4"
