@@ -1,28 +1,40 @@
-export default function handler(
-  req: { body: any },
-  res: {
-    status: (arg0: number) => {
-      (): any;
-      new (): any;
-      json: { (arg0: { data: string }): void; new (): any };
-    };
-  }
+import type { NextApiRequest, NextApiResponse } from 'next';
+import nodemailer from 'nodemailer';
+
+interface EmailFormData {
+	recipient: string;
+	subject: string;
+	message: string;
+}
+
+export default async function handler(
+	req: NextApiRequest,
+	res: NextApiResponse
 ) {
-  // Get data submitted in request's body.
-  const body = req.body;
+	const { recipient, subject, message }: EmailFormData = JSON.parse(req.body);
 
-  // Optional logging to see the responses
-  // in the command line where next.js app is running.
-  console.log("body: ", body);
+	try {
+		const transporter = nodemailer.createTransport({
+			host: 'smtp.google.com',
+			port: 587,
+			secure: false, // upgrade later with STARTTLS
+			auth: {
+				user: 'stevechez',
+				pass: 'm8qugViX!!',
+			},
+		});
 
-  // Guard clause checks for first and last name,
-  // and returns early if they are not found
-  if (!body.first || !body.last) {
-    // Sends a HTTP bad request error code
-    return res.status(400).json({ data: "First or last name not found" });
-  }
+		const info = await transporter.sendMail({
+			from: 'stevechez@gmail.com',
+			to: recipient,
+			subject,
+			text: message,
+		});
 
-  // Found the name.
-  // Sends a HTTP success code
-  res.status(200).json({ data: `${body.first} ${body.last}` });
+		console.log('Email sent:', info.messageId);
+		res.status(200).json({ success: true });
+	} catch (error) {
+		console.error('Error sending email:', error);
+		res.status(500).json({ error: 'Error sending email' });
+	}
 }
